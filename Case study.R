@@ -17,7 +17,6 @@ Data <- na.omit(Data)
 #Travelers$ni.age <- ifelse(Travelers$ni.age>=80, 80, Travelers$ni.age)
 # summary(Travelers$ni.age)
 
-# Travelers=Travelers[,-c(19,20)]
 
 #Applying Binary encoding to categorical variables
 Data = data.frame(model.matrix(~., data = Data, contrasts.arg = NULL))
