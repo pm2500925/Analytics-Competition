@@ -2,7 +2,7 @@ install.packages("mlbench")
 library(mlbench)
 library(readr)
 library(caTools)
-Data <- read_csv("C:/Users/PrateekChoukse/Desktop/MS BAPM/Predective modelling - 5604/Travelers Case study/Train.csv")
+Data <- read_csv("C:/Users/pm2500925/Desktop/MS BAPM/Predective modelling - 5604/Travelers Case study/Train.csv")
 
 #Data cleaning
 #Removing rows with cancel values -1
